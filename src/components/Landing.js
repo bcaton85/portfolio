@@ -2,7 +2,6 @@ import React from "react";
 import styles from "../css/Landing.module.css";
 import content from '../content';
 import Button from './Utilities/Button';
-import {Link} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 function Landing() {

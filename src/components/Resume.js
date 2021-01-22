@@ -7,7 +7,7 @@ function Resume() {
     <div className={styles.resumeContainer}>
       <h2 className={styles.resumeDescription}>Feel free to reach out for more information</h2>
       <div className={styles.resume}>
-        <img className={styles.resumeImage} src="images/resume.png"/>
+        <img alt="Brandon Caton Resume" className={styles.resumeImage} src="images/resume.png"/>
       </div>
       <Button url="/" input="Home"></Button>
     </div>
