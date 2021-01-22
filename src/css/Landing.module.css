@@ -1,0 +1,39 @@
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 15%;
+    line-height: 1.4;
+}
+
+.intro {
+    flex: 1 1 50%;
+    line-height: 1.4;
+}
+
+.landing h1 span:first-child {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.landing h1 span:last-child {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.landing h2 {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.profile {
+    flex: 1 1 20%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile {
+        display: none;
+    }
+}

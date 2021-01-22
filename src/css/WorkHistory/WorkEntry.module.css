@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+}
+
+.workEntry {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.description {
+    padding: 0 5% 0 5%;
+}
+
+.subHeader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding-bottom: 1%;
+}
+
+.descriptionList {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.line{
+    padding-bottom: 1%;
+}
+
+@media only screen and (max-width: 768px) {
+    .workEntry {
+        flex-direction: column;
+    }
+
+    .imageContainer {
+        margin: 0 auto;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .subHeader  {
+        flex-direction: column;
+    }
+
+    .descriptionList {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+.contactLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactLinks > span {
+    padding-bottom: 3%;
+    font-size: 1.3em;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contactDescription {
+    padding: 3% 0 3% 0;
+    font-weight: 400;
+}
+
+.contactContainer {
+    min-height: 70vh;
+    padding: 5% 15% 5% 15%;
+}

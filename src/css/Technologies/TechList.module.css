@@ -1,0 +1,15 @@
+.techList {
+    padding-bottom: 5%;
+}
+
+.listHeading {
+    margin-bottom: 2%;
+    /* border-bottom: 1px solid var(--secondary-color); */
+}
+
+@media only screen and (max-width: 768px) {
+    .techList {
+        padding-bottom: 15%;
+        text-align: center;
+    }
+}

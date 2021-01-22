@@ -1,0 +1,14 @@
+.socialLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.socialLink {
+    width: 5rem;
+    text-align: center;
+}
+
+.icon {
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+}
