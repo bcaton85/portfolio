@@ -18,7 +18,7 @@ let Content = {
     landing: {
         greeting: "Hello 👋",
         name: "I'm Brandon",
-        introParagraph: "I'm a New York City based software developer.",
+        introParagraph: "I'm a New Jersey/NYC based Software Engineer. My expertise is in microservice development and architecture in public and private cloud platforms.",
         buttonText: "View my resume"
     },
     technologies: {
