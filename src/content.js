@@ -96,7 +96,7 @@ let Content = {
     workHistory: [
         {
             company: "UPS",
-            position: "DEVOPS ENGINEER",
+            position: "SR. CLOUD ENGINEER",
             dates: "JANURARY 2019 - CURRENT",
             image: "ups-logo.png",
             description: [

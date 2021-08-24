@@ -10,7 +10,7 @@ function Main() {
       <div className={styles.main}>
           <Landing></Landing>
           <Technologies></Technologies>
-          <WorkHistory></WorkHistory>
+          {/* <WorkHistory></WorkHistory> */}
           <Contact></Contact>
       </div>
   );
