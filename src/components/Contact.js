@@ -1,7 +1,6 @@
 import React from "react";
 import Content from '../content';
 import Section from './Utilities/Section';
-import Button from './Utilities/Button';
 import SocialLinks from './Nav/SocialLinks';
 import styles from '../css/Contact.module.css';
 
